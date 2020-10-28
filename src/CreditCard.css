@@ -1,0 +1,28 @@
+.hello {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 300px;
+  line-height: 1.5;
+}
+
+.creditcard {
+  margin-top: 50px;
+}
+
+.button {
+  position: absolute;
+  top: 60%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #f0c14b;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
