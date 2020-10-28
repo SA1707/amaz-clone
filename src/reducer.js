@@ -3,9 +3,7 @@ export const initialState = {
   user: null
 };
 
-// Selector, get basket going to take the basket and return the get the basket and reduce 
-//it maps through the basket and tally up the total, intial amount it loops item price 
-//return in subtoatal.
+
 export const getBasketTotal = basket =>
   basket?.reduce((amount, item) => item.price + amount, 0);
 
